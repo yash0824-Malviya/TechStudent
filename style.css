@@ -1,0 +1,89 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap'); */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #ececec;
+}
+
+/* .heading span {
+    background-color: orange;
+    color: #fff;
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+    font-size: 100%;
+} */
+
+.header-text h2{
+    background-color: #ff7800;
+    color: #fff;
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+    margin-left: 5rem;
+
+}
+
+.row a{
+    color: #ff7800;
+}
+
+
+
+/* .input-group button{
+    background-color: #ff7800;
+} */
+
+.input-group button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.input-group button:hover{
+    background-color: gainsboro;
+    color: black;
+}
+/*------------ Login container ------------*/
+
+.box-area{
+    width: 930px;
+}
+
+/*------------ Right box ------------*/
+
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+
+/*------------ Custom Placeholder ------------*/
+
+::placeholder{
+    font-size: 16px;
+}
+
+.rounded-4{
+    border-radius: 20px;
+}
+.rounded-5{
+    border-radius: 30px;
+}
+
+
+/*------------ For small screens------------*/
+
+@media only screen and (max-width: 768px){
+
+     .box-area{
+        margin: 0 10px;
+
+     }
+     .left-box{
+        height: 100px;
+        overflow: hidden;
+     }
+     .right-box{
+        padding: 20px;
+     }
+
+}
